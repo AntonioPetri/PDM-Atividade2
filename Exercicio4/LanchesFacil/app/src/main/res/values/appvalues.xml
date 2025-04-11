@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textTitulo">Lanche Fácil</string>
+    <string name="textIniciar">Iniciar pedido</string>
+    <string name="textCardapio">Cardápio</string>
+    <string name="textFazer">Fazer pedido</string>
+    <string name="textPedido">Pedido feito com sucesso</string>
+    <string name="textVoltar">Voltar</string>
+
+
+
+    <color name="amarelo">#ffd000</color>
+</resources>

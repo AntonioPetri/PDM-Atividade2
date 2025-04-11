@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tem de Tudo - Cadastro</string>
+    <string name="logo_descricao">Logomarca da loja Tem de Tudo</string>
+    <string name="iniciar_cadastro">Iniciar Cadastro</string>
+    <string name="cadastro_descricao">Imagem ilustrativa para cadastro</string>
+    <string name="nome_cliente">Nome do Cliente</string>
+    <string name="registrar">Registrar</string>
+    <string name="cadastro_concluido_descricao">Cadastro concluído com sucesso</string>
+    <string name="voltar_inicio">Voltar ao Início</string>
+    <string name="bem_vindo">Bem-vindo, %s!</string>
+</resources>

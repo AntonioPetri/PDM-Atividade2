@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textTitulo">Cálculo do Salário</string>
+    <string name="textSubTitulo">Digite o seu Salário (R$):</string>
+    <string name="textSubSub">Qual será o percentual?</string>
+
+    <string name="hintSalario">Salário</string>
+
+</resources>

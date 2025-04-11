@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textTitulo">Sistema de Compras</string>
+    <string name="textSubTitulo">Escolha o seu produto</string>
+
+    <color name="cinza_escuro">#1f1f1f</color>
+    <color name="cinza_claro">#3f3f3f</color>
+    <color name="laranja">#FFA500</color>
+
+</resources>
