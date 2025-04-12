@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/textSelecionar"
+    android:textSize="18sp"
+    android:layout_marginBottom="16dp"/>
+
+<CheckBox
+    android:id="@+id/checkCalabresa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Calabresa (R$ 15,00)"/>
+
+<CheckBox
+    android:id="@+id/checkMarguerita"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Marguerita (R$ 20,00)"/>
+
+<CheckBox
+    android:id="@+id/checkPortuguesa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Portuguesa (R$ 25,00)"/>
+
+<Button
+    android:id="@+id/btnProximoTipo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Próximo"
+    android:layout_marginTop="24dp"/>
+</LinearLayout>

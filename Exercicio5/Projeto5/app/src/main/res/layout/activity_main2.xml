@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Selecione o tamanho:"
+    android:textSize="18sp"/>
+
+<RadioGroup
+android:id="@+id/radioGroupTamanho"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+<RadioButton
+    android:id="@+id/radioPequena"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pequena (R$ 25,00)"/>
+
+<RadioButton
+    android:id="@+id/radioMedia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Média (R$ 35,00)"/>
+
+<RadioButton
+    android:id="@+id/radioGrande"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Grande (R$ 45,00)"/>
+</RadioGroup>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Selecione o método de pagamento:"
+android:textSize="18sp"
+android:layout_marginTop="16dp"/>
+
+<RadioGroup
+android:id="@+id/radioGroupPagamento"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+<RadioButton
+    android:id="@+id/radioDinheiro"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dinheiro"/>
+
+<RadioButton
+    android:id="@+id/radioCartao"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cartão"/>
+</RadioGroup>
+
+<Button
+android:id="@+id/btnFinalizarPedido"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Finalizar Pedido"
+android:layout_marginTop="24dp"/>
+    </LinearLayout>
